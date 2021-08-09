@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<RelativeLayout tools:context=".MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ImageView 
+android:layout_height="match_parent" 
+android:layout_width="match_parent" 
+android:src="@drawable/androidparty" 
+android:scaleType="centerCrop"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content" 
+android:textSize="36sp" 
+android:padding="16dp" 
+android:fontFamily="sans-serif-light" 
+android:textColor="@android:color/white" 
+android:text="Happy Birthday ,Vijay!"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content" 
+android:textSize="36sp" 
+android:padding="16dp" 
+android:fontFamily="sans-serif-light" 
+android:textColor="@android:color/white" 
+android:text="From,Vikas!" 
+android:layout_alignParentRight="true" 
+android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
